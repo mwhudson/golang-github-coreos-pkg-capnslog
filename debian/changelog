@@ -1,0 +1,5 @@
+golang-github-coreos-pkg (0.0~git20151028.0.2c77715-1) unstable; urgency=medium
+
+  * Initial release (Closes: #804108)
+
+ -- Tim Potter <tpot@hpe.com>  Thu, 05 Nov 2015 13:44:32 +1100
