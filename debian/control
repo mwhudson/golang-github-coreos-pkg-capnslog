@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
 Uploaders: Tim Potter <tpot@hpe.com>
 Build-Depends: debhelper (>= 9),
-               dh-golang,
+               dh-golang (>= 1.17~),
                golang-go,
                golang-github-coreos-go-systemd-dev,
                golang-yaml.v2-dev
