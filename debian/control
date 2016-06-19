@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9),
 Standards-Version: 3.9.8
 Homepage: https://github.com/coreos/pkg
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-coreos-pkg.git
-Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-github-coreos-pkg.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-coreos-pkg.git
 XS-Go-Import-Path: github.com/coreos/pkg
 
 Package: golang-github-coreos-pkg-dev
