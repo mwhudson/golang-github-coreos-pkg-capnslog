@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 9),
                golang-go,
                golang-github-coreos-go-systemd-dev,
                golang-yaml.v2-dev
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://github.com/coreos/pkg
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-coreos-pkg.git
 Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-github-coreos-pkg.git
