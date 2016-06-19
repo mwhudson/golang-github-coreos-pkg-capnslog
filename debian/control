@@ -7,6 +7,7 @@ Build-Depends: debhelper (>= 9),
                dh-golang (>= 1.17~),
                golang-go,
                golang-github-coreos-go-systemd-dev,
+               golang-golang-x-crypto-dev,
                golang-yaml.v2-dev
 Standards-Version: 3.9.8
 Homepage: https://github.com/coreos/pkg
@@ -20,6 +21,7 @@ Depends: ${shlibs:Depends},
          ${misc:Depends},
          golang-go,
          golang-github-coreos-go-systemd-dev,
+         golang-golang-x-crypto-dev,
          golang-yaml.v2-dev
 Description: collection of Go utility packages
  This package contains a collection of Go utility libraries for use
