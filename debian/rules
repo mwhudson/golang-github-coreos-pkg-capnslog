@@ -1,8 +1,7 @@
 #!/usr/bin/make -f
 
+export DH_GOLANG_EXCLUDES := capnslog/example
+
 %:
 	dh $@ --buildsystem=golang --with=golang
 
-override_dh_auto_install:
-	dh_auto_install
-	rm -rf ${CURDIR}/debian/golang-github-coreos-pkg-dev/usr/bin

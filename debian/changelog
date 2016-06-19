@@ -6,6 +6,7 @@ golang-github-coreos-pkg (2-1) unstable; urgency=medium
   * Standards-Version: 3.9.8.
   * Vcs-Git URL to HTTPS.
   * Updated "watch" file.
+  * Simplified "rules" through use of "DH_GOLANG_EXCLUDES".
 
  -- Dmitry Smirnov <onlyjob@debian.org>  Sun, 19 Jun 2016 21:41:23 +1000
 
