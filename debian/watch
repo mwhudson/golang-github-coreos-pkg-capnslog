@@ -1,5 +1,5 @@
 # uscan(1) configuration file.
-version=3
-
+version=4
+opts="repacksuffix=~ds1,dversionmangle=s/\~ds\d*$//" \
  https://github.com/coreos/pkg/releases \
  .*/archive/v?(\d[\d\.]*)\.tar\.gz

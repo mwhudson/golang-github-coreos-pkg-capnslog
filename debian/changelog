@@ -1,3 +1,10 @@
+golang-github-coreos-pkg-capnslog (3~ds1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * New package that only includes capnslog. (Closes: #827928)
+
+ -- Michael Hudson-Doyle <michael.hudson@ubuntu.com>  Tue, 16 Aug 2016 09:55:51 +1200
+
 golang-github-coreos-pkg (2-1) unstable; urgency=medium
 
   * Team upload.

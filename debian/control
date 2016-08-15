@@ -1,4 +1,4 @@
-Source: golang-github-coreos-pkg
+Source: golang-github-coreos-pkg-capnslog
 Section: devel
 Priority: extra
 Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
@@ -15,7 +15,7 @@ Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-coreo
 Vcs-Git: https://anonscm.debian.org/git/pkg-go/packages/golang-github-coreos-pkg.git
 XS-Go-Import-Path: github.com/coreos/pkg
 
-Package: golang-github-coreos-pkg-dev
+Package: golang-github-coreos-pkg-capnslog-dev
 Architecture: all
 Depends: ${shlibs:Depends},
          ${misc:Depends},
@@ -24,5 +24,4 @@ Depends: ${shlibs:Depends},
          golang-golang-x-crypto-dev,
          golang-yaml.v2-dev
 Description: collection of Go utility packages
- This package contains a collection of Go utility libraries for use
- in projects written by CoreOS, Inc.
+ This package contains the capnslog library written by CoreOS, Inc.
