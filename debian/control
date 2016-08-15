@@ -1,7 +1,8 @@
 Source: golang-github-coreos-pkg-capnslog
 Section: devel
 Priority: extra
-Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
 Uploaders: Tim Potter <tpot@hpe.com>
 Build-Depends: debhelper (>= 9),
                dh-golang (>= 1.17~),
